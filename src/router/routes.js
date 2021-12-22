@@ -35,7 +35,7 @@ const frameIn = [
         path: 'page2',
         name: 'page2',
         meta: {
-          title: '页面 2',
+          title: '项目列表',
           auth: true
         },
         component: _import('demo/page2')

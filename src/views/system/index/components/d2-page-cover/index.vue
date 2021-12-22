@@ -1,8 +1,9 @@
 <template>
   <div class="d2-page-cover">
-    <p class="d2-page-cover__title">Haust'Project Dashboard</p>
-    <p class="d2-page-cover__sub-title">中后台管理页面</p>
-    <p class="d2-page-cover__build-time">FINAL BUILD TIME {{$buildTime}}</p>
+    <div class="block">
+      
+      <el-image class="d2-page-cover__logo" :src="src" ></el-image>
+    </div>
   </div>
 </template>
 
@@ -38,3 +39,12 @@
   }
 }
 </style>
+<script>
+  export default {
+    data() {
+      return {
+        src: 'https://obohe.com/i/2021/12/23/ddbuv.png'
+      }
+    }
+  }
+</script>
